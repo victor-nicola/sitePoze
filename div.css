@@ -24,33 +24,14 @@ a:active {
 }
 .name {
     float: left;
-    padding-top: 40px;
-    padding-left: 400px;
-    margin-bottom: 50px;
+    margin-top: 2.36%;
+    margin-bottom: 2.36%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .menu {
-    float: right;
-    padding-right: 400px;
-}
-.col1 {
     float: left;
-    margin-top: 35px;
-    height: fit-content;
-    width: fit-content;
-}
-.col2 {
-    float: left;
-    margin-top: 35px;
-    margin-left: 100px;
-    height: fit-content;
-    width: fit-content;
-}
-.col3 {
-    float: left;
-    margin-top: 35px;
-    margin-left: 100px;
-    height: fit-content;
-    width: fit-content;
+    margin-right: 10%;
 }
 .nature {
     width: fit-content;
@@ -65,17 +46,14 @@ a:active {
     height: fit-content;
 }
 .about {
-    margin-top: 20px;
     width: fit-content;
     height: fit-content;
 }
 .contact {
-    margin-top: 20px;
     width: fit-content;
     height: fit-content;
 }
 .support {
-	margin-top: 20px;
     width: fit-content;
     height: fit-content;
 }
@@ -115,7 +93,7 @@ a:active {
     align-items: center;
     overflow-y: hidden;
 }
-.adobe {
+.linksSupport {
 	padding-top: 5px;
 }
 .copyright {
@@ -169,7 +147,7 @@ hr {
 	margin-top: 200px;
 	width: fit-content;
 	height: fit-content;
-    opacity: 0.6;
+    /* opacity: 0.6; */
     background-color: black;
 }
 .divIMG {
@@ -182,4 +160,17 @@ hr {
 	top: 0;
 	width: 100%;
 	height: fit-content;
+}
+.grid-container {
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 90px;
+    row-gap: 10px;
+    background-color: black;
+    padding-top: 37px;
+}
+.grid-container > div {
+    background-color: black;
+    text-align: center;
 }
