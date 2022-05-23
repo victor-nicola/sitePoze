@@ -1,0 +1,176 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.header {
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+}
+.name {
+    float: left;
+    margin-top: 2.36%;
+    margin-bottom: 2.36%;
+    margin-left: 20%;
+    margin-right: 25%;
+}
+.menu {
+    float: left;
+    margin-right: 5%;
+}
+.nature {
+    width: fit-content;
+    height: fit-content;
+}
+.urban {
+    width: fit-content;
+    height: fit-content;
+}
+.people {
+    width: fit-content;
+    height: fit-content;
+}
+.about {
+    width: fit-content;
+    height: fit-content;
+}
+.contact {
+    width: fit-content;
+    height: fit-content;
+}
+.support {
+    width: fit-content;
+    height: fit-content;
+}
+.slideShow {
+    padding: 0;
+    left: 0;
+    margin-top: 130px;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: fit-content;
+    width: 100%;
+}
+.aboutDescription {
+    margin: 0;
+    padding: 0;
+    padding-left: 100px;
+    padding-top: 375px;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+    line-height: 2.5;
+    overflow-y: hidden;
+}
+.contactTexts {
+    padding-left: 750px;
+    padding-top: 450px;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+    overflow-y: hidden;
+}
+.supportLinks {
+    padding-left: 750px;
+    padding-top: 450px;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+    overflow-y: hidden;
+}
+.linksSupport {
+	padding-top: 5px;
+}
+.copyright {
+    align-items: center;
+    width: fit-content;
+    padding-left: 42%;
+}
+hr {
+    height: fit-content;
+}
+.collections {
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.columnCollection {
+    float: left;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+.first {
+    margin-left: 12%;
+}
+.col1IMG {
+	float: left;
+	margin-left: 100px;
+	min-width: fit-content;
+	min-height: fit-content;
+}
+.col2IMG {
+	float: left;
+	margin-left: 150px;
+	min-width: fit-content;
+	min-height: fit-content;
+}
+.col3IMG {
+	float: left;
+	margin-left: 150px;
+	min-width: fit-content;
+	min-height: fit-content;
+}
+.col4IMG {
+	float: left;
+	margin-left: 150px;
+	min-width: fit-content;
+	min-height: fit-content;
+}
+.holder {
+	top: 0;
+	margin-top: 200px;
+	width: fit-content;
+	height: fit-content;
+    /* opacity: 0.6; */
+    background-color: black;
+}
+.divIMG {
+    margin-bottom: 50px;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+}
+.line {
+	top: 0;
+	width: 100%;
+	height: fit-content;
+}
+.grid-container {
+    float: left;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 90px;
+    row-gap: 10px;
+    background-color: black;
+    padding-top: 37px;
+}
+.grid-container > div {
+    background-color: black;
+    text-align: center;
+}

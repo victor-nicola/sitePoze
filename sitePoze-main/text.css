@@ -1,0 +1,44 @@
+pre, p, a {
+    color: white;
+    font-family: 'BIZ UDPMincho', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeTextButton {
+    font-size: 40px;
+}
+.menuLink {
+    font-size: 15px;
+}
+.aboutText {
+	align-items: center;
+    font-size: 15px;
+}
+.emailText {
+    font-size: 15px;
+    padding-left: 10px;
+}
+.instaText {
+    font-size: 15px;
+    padding-left: 10px;
+}
+.stockText {
+	font-size: 15px;
+    padding-left: 108px;
+}
+.supportTitle {
+	font-size: 15px;
+    padding-left: 100px;
+	padding-bottom: 10px;
+}
+.copyrightText {
+    font-size: 15px;
+}
+.collectionsText {
+    font-size: 30px;
+    color: rgb(142,134,129);
+    margin-left: 12%;
+}
+.collectionName {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
